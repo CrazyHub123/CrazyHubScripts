@@ -29,26 +29,26 @@ local RayfieldLibrary = {
 			Topbar = Color3.fromRGB(255, 255, 255),
 			Shadow = Color3.fromRGB(255, 255, 255),
 
-			NotificationBackground =Color3.fromRGB(255, 255, 255),
+			NotificationBackground = Color3.fromRGB(99, 99, 99),
 			NotificationActionsBackground = Color3.fromRGB(255, 255, 255),
 
-			TabBackground = Color3.fromRGB(255, 255, 255),
+			TabBackground = Color3.fromRGB(99, 99, 99),
 			TabStroke = Color3.fromRGB(255, 255, 255),
 			TabBackgroundSelected = Color3.fromRGB(255, 255, 255),
 			TabTextColor = Color3.fromRGB(255, 255, 255),
 			SelectedTabTextColor = Color3.fromRGB(255, 255, 255),
 
-			ElementBackground = Color3.fromRGB(255, 255, 255),
+			ElementBackground = Color3.fromRGB(99, 99, 99),
 			ElementBackgroundHover = Color3.fromRGB(255, 255, 255),
 			SecondaryElementBackground = Color3.fromRGB(255, 255, 255), -- For labels and paragraphs
 			ElementStroke = Color3.fromRGB(255, 255, 255),
 			SecondaryElementStroke = Color3.fromRGB(255, 255, 255), -- For labels and paragraphs
 
-			SliderBackground = Color3.fromRGB(159, 0, 0),
+			SliderBackground = Color3.fromRGB(99, 99, 99),
 			SliderProgress = Color3.fromRGB(188, 0, 0),
 			SliderStroke = Color3.fromRGB(255, 0, 0),
 
-			ToggleBackground = Color3.fromRGB(255, 255, 255),
+			ToggleBackground = Color3.fromRGB(99, 99, 99),
 			ToggleEnabled = Color3.fromRGB(255, 255, 255),
 			ToggleDisabled = Color3.fromRGB(255, 255, 255),
 			ToggleEnabledStroke = Color3.fromRGB(255, 255, 255),
@@ -56,7 +56,7 @@ local RayfieldLibrary = {
 			ToggleEnabledOuterStroke = Color3.fromRGB(255, 255, 255),
 			ToggleDisabledOuterStroke = Color3.fromRGB(255, 255, 255),
 
-			InputBackground = Color3.fromRGB(255, 255, 255),
+			InputBackground = Color3.fromRGB(99, 99, 99),
 			InputStroke = Color3.fromRGB(255, 255, 255),
 			PlaceholderColor = Color3.fromRGB(255, 255, 255)
 		},
