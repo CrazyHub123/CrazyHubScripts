@@ -44,9 +44,9 @@ local RayfieldLibrary = {
 			ElementStroke = Color3.fromRGB(255, 255, 255),
 			SecondaryElementStroke = Color3.fromRGB(255, 255, 255), -- For labels and paragraphs
 
-			SliderBackground = Color3.fromRGB(255, 255, 255),
-			SliderProgress = Color3.fromRGB(255, 255, 255),
-			SliderStroke = Color3.fromRGB(255, 255, 255),
+			SliderBackground = Color3.fromRGB(159, 0, 0),
+			SliderProgress = Color3.fromRGB(188, 0, 0),
+			SliderStroke = Color3.fromRGB(255, 0, 0),
 
 			ToggleBackground = Color3.fromRGB(255, 255, 255),
 			ToggleEnabled = Color3.fromRGB(255, 255, 255),
@@ -60,45 +60,6 @@ local RayfieldLibrary = {
 			InputStroke = Color3.fromRGB(255, 255, 255),
 			PlaceholderColor = Color3.fromRGB(255, 255, 255)
 		},
-		Light = {
-			TextFont = "Gotham",  -- Default will use the various font faces used across Rayfield
-			TextColor = Color3.fromRGB(255, 255, 255), -- i need to make all text 240, 240, 240 and base gray on transparency not color to do this
-
-			Background = Color3.fromRGB(255, 255, 255),
-			Topbar = Color3.fromRGB(255, 255, 255),
-			Shadow = Color3.fromRGB(255, 255, 255),
-
-			NotificationBackground = Color3.fromRGB(255, 255, 255),
-			NotificationActionsBackground = Color3.fromRGB(255, 255, 255),
-
-			TabBackground = Color3.fromRGB(255, 255, 255),
-			TabStroke = Color3.fromRGB(255, 255, 255),
-			TabBackgroundSelected = Color3.fromRGB(255, 255, 255),
-			TabTextColor = Color3.fromRGB(255, 255, 255),
-			SelectedTabTextColor = Color3.fromRGB(255, 255, 255),
-
-			ElementBackground = Color3.fromRGB(255, 255, 255),
-			ElementBackgroundHover = Color3.fromRGB(255, 255, 255),
-			SecondaryElementBackground = Color3.fromRGB(255, 255, 255), -- For labels and paragraphs
-			ElementStroke = Color3.fromRGB(255, 255, 255),
-			SecondaryElementStroke = Color3.fromRGB(255, 255, 255),  --For labels and paragraphs
-
-			SliderBackground = Color3.fromRGB(255, 255, 255),
-			SliderProgress = Color3.fromRGB(255, 255, 255),
-			SliderStroke = Color3.fromRGB(255, 255, 255),
-
-			ToggleBackground = Color3.fromRGB(255, 255, 255),
-			ToggleEnabled = Color3.fromRGB(255, 255, 255),
-			ToggleDisabled = Color3.fromRGB(255, 255, 255),
-			ToggleEnabledStroke = Color3.fromRGB(255, 255, 255),
-			ToggleDisabledStroke = Color3.fromRGB(255, 255, 255),
-			ToggleEnabledOuterStroke = Color3.fromRGB(255, 255, 255),
-			ToggleDisabledOuterStroke = Color3.fromRGB(255, 255, 255),
-
-			InputBackground = Color3.fromRGB(255, 255, 255),
-			InputStroke = Color3.fromRGB(255, 255, 255),
-			PlaceholderColor = Color3.fromRGB(255, 255, 255)
-		}
 	}
 }
 
