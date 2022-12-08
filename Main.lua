@@ -71,7 +71,7 @@ end
 
  --Object Variables
 
-local Camera = workspace.Curr Rayfield.MainentCamera
+local Camera = workspace.CurrentCamera
 local Main = Rayfield.Main
 local Topbar = Main.Topbar
 local Elements = Main.Elements
@@ -113,7 +113,7 @@ function ChangeTheme(ThemeName)
 	Rayfield.Main.BackgroundColor3 = SelectedTheme.Background
 	Rayfield.Main.Topbar.BackgroundColor3 = Color3.fromRGB(129, 129, 129)
 	Rayfield.Main.Topbar.CornerRepair.BackgroundColor3 = SelectedTheme.Topbar
-	Rayfield.Main.Shadow.Image.ImageColor3 = Color3.fromRGB(255, 255, 255)
+	Rayfield.Main.Shadow.Image.ImageColor3 = SelectedTheme.Shadow
 
 	Rayfield.Main.Topbar.ChangeSize.ImageColor3 = SelectedTheme.TextColor
 	Rayfield.Main.Topbar.Hide.ImageColor3 = SelectedTheme.TextColor
