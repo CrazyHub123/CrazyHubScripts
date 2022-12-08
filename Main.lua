@@ -66,7 +66,7 @@ local RayfieldLibrary = {
 
 			Background = Color3.fromRGB(255, 255, 255),
 			Topbar = Color3.fromRGB(255, 255, 255),
-			Shadow = Color3.fromRGB(255, 255, 255),
+			Shadow = Color3.fromRGB(223, 223, 223),
 
 			NotificationBackground = Color3.fromRGB(20, 20, 20),
 			NotificationActionsBackground = Color3.fromRGB(230, 230, 230),
@@ -83,9 +83,9 @@ local RayfieldLibrary = {
 			ElementStroke = Color3.fromRGB(180, 199, 97),
 			SecondaryElementStroke = Color3.fromRGB(40, 40, 40),  --For labels and paragraphs
 
-			SliderBackground = Color3.fromRGB(31, 159, 71),
-			SliderProgress = Color3.fromRGB(31, 159, 71),
-			SliderStroke = Color3.fromRGB(42, 216, 94),
+			SliderBackground = Color3.fromRGB(159, 0, 0),
+			SliderProgress = Color3.fromRGB(188, 0, 0),
+			SliderStroke = Color3.fromRGB(255, 0, 0),
 
 			ToggleBackground = Color3.fromRGB(170, 203, 60),
 			ToggleEnabled = Color3.fromRGB(32, 214, 29),
