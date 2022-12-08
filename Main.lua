@@ -149,7 +149,7 @@ function ChangeTheme(ThemeName)
 
 	Rayfield.Main.BackgroundColor3 = SelectedTheme.Background
 	Rayfield.Main.Topbar.BackgroundColor3 = Color3.fromRGB(129, 129, 129)
-	Rayfield.Main.Topbar.CornerRepair.BackgroundColor3 = SelectedTheme.Topbar
+	Rayfield.Main.Topbar.CornerRepair.BackgroundColor3 = Color3.fromRGB(129, 129, 129)
 	Rayfield.Main.Shadow.Image.ImageColor3 = SelectedTheme.Shadow
 
 	Rayfield.Main.Topbar.ChangeSize.ImageColor3 = SelectedTheme.TextColor
