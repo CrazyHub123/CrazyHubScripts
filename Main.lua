@@ -52,13 +52,13 @@ local RayfieldLibrary = {
 			ToggleEnabled = Color3.fromRGB(0, 146, 214),
 			ToggleDisabled = Color3.fromRGB(100, 100, 100),
 			ToggleEnabledStroke = Color3.fromRGB(0, 170, 255),
-			ToggleDisabledStroke = Color3.fromRGB(125, 125, 125),
-			ToggleEnabledOuterStroke = Color3.fromRGB(100, 100, 100),
-			ToggleDisabledOuterStroke = Color3.fromRGB(65, 65, 65),
+			ToggleDisabledStroke = Color3.fromRGB(255, 255, 255),
+			ToggleEnabledOuterStroke = Color3.fromRGB(255, 255, 255),
+			ToggleDisabledOuterStroke = Color3.fromRGB(255, 255, 255),
 
-			InputBackground = Color3.fromRGB(30, 30, 30),
-			InputStroke = Color3.fromRGB(0, 0, 0),
-			PlaceholderColor = Color3.fromRGB(178, 178, 178)
+			InputBackground = Color3.fromRGB(255, 255, 255)),
+			InputStroke = Color3.fromRGB(255, 255, 255),
+			PlaceholderColor = Color3.fromRGB(255, 255, 255)
 		},
 		Light = {
 			TextFont = "Gotham",  -- Default will use the various font faces used across Rayfield
