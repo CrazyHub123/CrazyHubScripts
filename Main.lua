@@ -45,7 +45,7 @@ function Library:UpdateColorsUsingRegistry() -- feature is not done yet
     end;
 end;
 
-local Atlas = game:GetObjects("rbxassetid://12481015579")[1]
+local Atlas = game:GetObjects("rbxassetid://11653746072")[1]
 
 Atlas.Blank.Enabled = false
 pcall(function()
@@ -549,6 +549,7 @@ function Library:CreateWindow(LibArgs)
         Select.Parent = Background.Pages.Inner.ScrollingFrame
         Holder.Parent = Background.Content.Pages
 
+        Select.Frame.Icon.Visible = true
         Select.Frame.TextLabel.Text = p_Name
         Select.Frame.Icon.Image = p_Icon
 
