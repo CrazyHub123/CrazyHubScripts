@@ -272,7 +272,7 @@ function Library:CreateWindow(LibArgs)
     local UI = Atlas.Blank:Clone()
     UI.Name = LibArgs.Name
     local Background = UI.Background
-    Background.Top.Title.Text = Color3.fromRGB(255, 255, 255);
+    Background.Top.Title.Text = LibArgs.Name
     if LibArgs.Version then
         if type(LibArgs.Version)=="number" then LibArgs.Version = "v"..tostring(LibArgs.Version) end
         Background.Top.Version.Text = LibArgs.Version
