@@ -272,7 +272,7 @@ function Library:CreateWindow(LibArgs)
     local UI = Atlas.Blank:Clone()
     UI.Name = LibArgs.Name
     local Background = UI.Background
-    Background.Top.Title.Text = LibArgs.Name
+    Background.Top.Title.Text = Color3.fromRGB(255, 255, 255)
     if LibArgs.Version then
         if type(LibArgs.Version)=="number" then LibArgs.Version = "v"..tostring(LibArgs.Version) end
         Background.Top.Version.Text = LibArgs.Version
@@ -320,7 +320,7 @@ function Library:CreateWindow(LibArgs)
             FontColor = Color3.fromRGB(215, 215, 215);
             MainColor = Color3.fromRGB(30, 30, 30);
             BackgroundColor = Color3.fromRGB(18, 18, 18);
-            AccentColor = LibArgs.Color or Color3.fromRGB(255,0,0);
+            AccentColor = Color3.fromRGB(21, 165, 255);
             OutlineColor = Color3.fromRGB(50, 50, 50); 
         };
     }
