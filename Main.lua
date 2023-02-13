@@ -319,7 +319,7 @@ function Library:CreateWindow(LibArgs)
         Theme = {
             FontColor = Color3.fromRGB(215, 215, 215);
             MainColor = Color3.fromRGB(30, 30, 30);
-            BackgroundColor = Color3.fromRGB(30, 30, 30);
+            BackgroundColor = Color3.fromRGB(18, 18, 18);
             AccentColor = Color3.fromRGB(21, 165, 255);
             OutlineColor = Color3.fromRGB(50, 50, 50); 
         };
