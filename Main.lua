@@ -45,7 +45,7 @@ function Library:UpdateColorsUsingRegistry() -- feature is not done yet
     end;
 end;
 
-local Atlas = game:GetObjects("rbxassetid://12481015579")[1]
+local Atlas = game:GetObjects("rbxassetid://12485375946")[1]
 
 Atlas.Blank.Enabled = false
 pcall(function()
@@ -1877,7 +1877,7 @@ function Library:CreateWindow(LibArgs)
             SectionObj.Name = string.rep("a",sectionIncrement)
             sectionIncrement = sectionIncrement+1
 
-            Atlas.Objects.Section.divider.BackgroundColor = Color3.fromRGB(21, 165, 255)
+            Atlas.Objects.Section["!|divider"].BackgroundColor = Color3.fromRGB(21, 165, 255)
             local Section = getElementMethods(SectionObj)
             Section.Obj = SectionObj
 
