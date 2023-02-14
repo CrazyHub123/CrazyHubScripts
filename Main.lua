@@ -1877,7 +1877,7 @@ function Library:CreateWindow(LibArgs)
             SectionObj.Name = string.rep("a",sectionIncrement)
             sectionIncrement = sectionIncrement+1
 
-            Atlas.Objects.Section["!|divider"].BackgroundColor = Color3.fromRGB(21, 165, 255)
+            Atlas.Objects.Section.!|divider.BackgroundColor = Color3.fromRGB(21, 165, 255)
             local Section = getElementMethods(SectionObj)
             Section.Obj = SectionObj
 
