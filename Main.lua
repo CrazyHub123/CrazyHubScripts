@@ -45,7 +45,7 @@ function Library:UpdateColorsUsingRegistry() -- feature is not done yet
     end;
 end;
 
-local Atlas = game:GetObjects("rbxassetid://11653746072")[1]
+local Atlas = game:GetObjects("rbxassetid://12481015579")[1]
 
 Atlas.Blank.Enabled = false
 pcall(function()
