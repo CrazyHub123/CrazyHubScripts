@@ -1,20 +1,4 @@
-local HttpService = game:GetService("HttpService")
-local req = (syn and syn.request) or http and http.request or http_request or (fluxus and fluxus.request) or request
-req({
-    Url = 'http://127.0.0.1:6463/rpc?v=1',
-    Method = 'POST',
-    Headers = {
-    ['Content-Type'] = 'application/json',
-    Origin = 'https://discord.com'
-    },
-    Body = HttpService:JSONEncode({
-    cmd = 'INVITE_BROWSER',
-    nonce = HttpService:GenerateGUID(false),
-    args = {code = "N8gB5bMUqQ"}
-    })
-})
 
-wait(2)
 
 -- This file was generated using Luraph Obfuscator v13.6.6
 
